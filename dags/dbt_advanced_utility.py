@@ -18,6 +18,7 @@ DBT_GLOBAL_CLI_FLAGS = "--no-write-json"
 DBT_TARGET = "dev"
 DBT_TAG = "tag_staging"
 
+# this is a comment
 
 with DAG(
     "dbt_advanced_dag_utility",
